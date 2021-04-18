@@ -1,9 +1,8 @@
 import React from "react";
+import Flip from "./components/Flip";
 
 function App() {
-   return (
-    <h1>Hiii</h1>
-  );
+  return <Flip />;
 }
 
 export default App;
