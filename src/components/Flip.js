@@ -1,11 +1,8 @@
 import Flippy, { FrontSide, BackSide } from "react-flippy";
 
-
-
 function Flip() {
-
   let flippy;
-    
+
   return (
     <div>
       <Flippy
@@ -22,9 +19,9 @@ function Flip() {
             backgroundColor: "#41669d",
           }}
         >
-          RICK
+          Bright Flash
         </FrontSide>
-        <BackSide style={{ backgroundColor: "#175852" }}>ROCKS</BackSide>
+        <BackSide style={{ backgroundColor: "#175852" }}>Frida Kahlo</BackSide>
       </Flippy>
     </div>
   );
