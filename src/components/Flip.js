@@ -16,11 +16,13 @@ function Flip() {
       >
         <FrontSide
           style={{
-            backgroundColor: "#41669d",
+            // backgroundColor: "#41669d",
+            backgroundImage: "url(" + "https://i.imgur.com/fRBk5YK.jpg" + ")",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
           }}
-        >
-          Bright Flash
-        </FrontSide>
+        ></FrontSide>
         <BackSide style={{ backgroundColor: "#175852" }}>Frida Kahlo</BackSide>
       </Flippy>
     </div>
