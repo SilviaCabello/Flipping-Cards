@@ -1,5 +1,7 @@
 import Flippy, { FrontSide, BackSide } from "react-flippy";
 
+const url = "https://pokeres.bastionbot.org/images/pokemon";
+
 function Flip() {
   let flippy;
 
@@ -16,14 +18,20 @@ function Flip() {
       >
         <FrontSide
           style={{
-            // backgroundColor: "#41669d",
             backgroundImage: "url(" + "https://i.imgur.com/fRBk5YK.jpg" + ")",
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
           }}
         ></FrontSide>
-        <BackSide style={{ backgroundColor: "#175852" }}>Frida Kahlo</BackSide>
+        <BackSide
+          style={{
+            backgroundImage: "url(" + "https://i.imgur.com/yvMnWoe.jpg" + ")",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+          }}
+        ></BackSide>
       </Flippy>
     </div>
   );
